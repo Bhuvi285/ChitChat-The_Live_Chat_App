@@ -5,7 +5,7 @@ import ChatInput from "./ChatInput";
 import "./Chat.css";
 
 // Initialize socket connection = connects to the server for real-time communication
-const socket = io(process.env.REACT_APP_SOCKET_URL || "http://localhost:5000");
+const socket = io(process.env.REACT_APP_SOCKET_URL);
 
 
 // Chat component = main chat interface handling messages and user status
